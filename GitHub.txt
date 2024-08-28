@@ -1,0 +1,7 @@
+			--Arquivo ReadME
+
+Serve para adicionar uma descrição ao seu projeto, é o primeiro arquivo que devemos ler. 
+
+gitignore -  é um arquivo de texto que diz ao Git quais arquivos ou pastas ele deve ignorar em um projeto.
+
+git remote add origin https://github.com/Ls-Leonardo/Site-Viagens.git

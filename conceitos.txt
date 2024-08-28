@@ -1,0 +1,94 @@
+
+	Passo I : Configuração do usuário Git
+● Para trabalhar com projetos Git, é importante configurar o seu nome de usuário e e-mail. Isso ajuda a identificar quem fez modificações específicas em um projeto.
+
+● No terminal do VS Code, digite os seguintes comandos:
+
+- Para configurar o nome de usuário, digite: git config --global user.name “seu nome”
+
+- Para configurar o e-mail, digite: git config --global user.email “seu e-mail”
+_____________________________________________________________________________
+
+	Passo II : Iniciar o Git no Projeto
+
+● git init = iniciamos o versionamento do nosso código  (.git )
+
+_____________________________________________________________________________
+
+	Passo III : Adicionar Arquivos ao Git
+
+● git add .   : isso adiciona todos os arquivos  pastas do projeto ao Git para serem monitorados. Não é o mais apropriado para todos os casos. 
+
+_____________________________________________________________________________
+	
+	Passo IV : Verificar o Status do Git
+
+● git status : exibe o status atual do projeto no Git, agora seus arquivos estão listados como "new file", pois foram adicionados ao Git. 
+
+_____________________________________________________________________________
+
+	Passo V: Fazer o Commit
+
+● git commit -m "commit inicial"   :  O comando persiste todas as alterações, o parametro -m é seguido pela mensagem do commit, que descreve as mudanças.
+
+_____________________________________________________________________________
+
+	Passo VI : Verificar Alterações
+
+● git diff + "nome_do_arquivo"  : podemos ver as alterações feitas. 
+
+ao ficar satisfeito vamos digitar  git add + "nome_do_arquivo" e depois usamos o git commit 
+
+_____________________________________________________________________________
+
+	Passo VII : Verificar o Histórico do Git
+
+●  git log : exibe todos os commits feitos até agora
+
+
+_____________________________________________________________________________
+
+	Passo VIII : Trabalhando com Branchs
+
+●  git branch : mostra a sua branch atual
+
+●  git branch bug-fix : criamos uma branch (pode ser qualquer nome) e agora podemos trabalhar nela sem afetar a master ( main ) 
+
+●  git checkout bug-fix : assim somos direcionados para essa nova branch
+
+_____________________________________________________________________________
+
+	Passo IX : Terminar as alterações e juntar tudo 
+
+após usar git add para adicionar as alterações :
+
+● git commit novamente
+
+Agora alteramos nossa branch, devemos voltar para a main
+
+●  git merge bug-fix  ( assim fundimos nossa branch ) 
+
+
+Devemos apagar o ramo bug- fix agora
+
+●  git branch -d bug-fix : deletado! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
